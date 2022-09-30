@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,73 @@
     <title>Carousel</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="carousel">
+        <img src="./Images/prev_arrow.svg" alt="" class="nav left hide">
+
+        <div class="track-container">
+            <ul class="track">
+                <li class="slide current">
+                    <h3 class="header">
+                        Slide 1
+                    </h3>
+                    <img src="./Images/1.jpg" alt="">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur libero maiores totam
+                        deleniti quibusdam, ratione aliquam qui officia iusto exercitationem accusamus numquam doloribus
+                        eum modi. Maiores reiciendis doloremque recusandae dicta.
+                    </p>
+                </li>
+                <li class="slide">
+                    <h3 class="header">
+                        Slide 2
+                    </h3>
+                    <img src="./Images/2.jpg" alt="">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur libero maiores totam
+                        deleniti quibusdam, ratione aliquam qui officia iusto exercitationem accusamus numquam doloribus
+                        eum modi. Maiores reiciendis doloremque recusandae dicta.
+                    </p>
+                </li>
+                <li class="slide">
+                    <h3 class="header">
+                        Slide 3
+                    </h3>
+                    <img src="./Images/3.webp" alt="">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur libero maiores totam
+                        deleniti quibusdam, ratione aliquam qui officia iusto exercitationem accusamus numquam doloribus
+                        eum modi. Maiores reiciendis doloremque recusandae dicta.
+                    </p>
+                </li>
+                <li class="slide">
+                    <h3 class="header">
+                        Slide 4
+                    </h3>
+                    <img src="./Images/4.jpg" alt="">
+                    <p class="text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur libero maiores totam
+                        deleniti quibusdam, ratione aliquam qui officia iusto exercitationem accusamus numquam doloribus
+                        eum modi. Maiores reiciendis doloremque recusandae dicta.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+
+        <img src="./Images/next_arrow.svg" alt="" class="nav right">
+    </div>
+
+    <div class="navigate">
+        <button class="indicate current"></button>
+        <button class="indicate"></button>
+        <button class="indicate"></button>
+        <button class="indicate"></button>
+    </div>
 
     <script src="carousel.js"></script>
 </body>
+
 </html>
